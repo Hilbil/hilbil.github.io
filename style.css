@@ -1,0 +1,267 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0;
+  background-color: white;
+}
+
+header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+div {
+  display: block;
+}
+
+nav {
+  padding: 1rem 0;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+ul {
+  margin-right: 1rem;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+.truncated-menu {
+  display: none;
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+.flex {
+  display: flex;
+}
+
+.headline {
+  background-color: white;
+  padding: 0.75rem 5rem;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: .67em 0;
+  line height: 1.2;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  width: 5rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.service img.paper-icon {
+  width: 3.5rem
+}
+
+.business-info {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
+
+.title {
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  max-width: 10rem;
+  color: white;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+footer {
+  background-color: azure;
+  display: flex;
+  padding: 4rem 4rem;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+nav.container {
+  max-width: 100%;
+  padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+header {
+  padding-top: 0;
+  height: 22rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+.headline {
+  padding: 0.75rem 4rem;
+  margin-top: 5rem;
+  margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+.headline h1 {
+  font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+header div span {
+  display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+nav.container {
+  max-width: 100%;
+  padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+header {
+  background-position: 20%;
+  height: 17rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.headline {
+  padding: 0 1rem;
+  margin: 9rem auto 0 auto;
+  width: 100%;
+  text-align: center;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.main-content {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 3.77rem;
+  margin-bottom: 3.77rem;
+  font-size: 0.77rem
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.service {
+  height: auto;
+  margin: 1.57rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.business-info {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.info {
+  width: auto;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.title {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.info p {
+  font-size: 0.77rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+footer {
+  justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+footer span {
+  display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.menu ul.truncated-menu {
+  display: block;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.menu ul {
+  display: none;
+  }
+}
